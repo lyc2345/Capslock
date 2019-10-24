@@ -610,7 +610,7 @@
         },
         {
           "from": {
-            "key_code": "p",
+            "key_code": "d",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -633,7 +633,7 @@
         },
         {
           "from": {
-            "key_code": "p",
+            "key_code": "d",
             "modifiers": {
               "mandatory": [
                 "right_command",
