@@ -1417,7 +1417,7 @@
         },
         {
           "from": {
-            "key_code": "b",
+            "key_code": "a",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -1429,7 +1429,7 @@
           },
           "to": [
             {
-              "key_code": "b",
+              "key_code": "a",
               "modifiers": [
                 "left_control"
               ]
