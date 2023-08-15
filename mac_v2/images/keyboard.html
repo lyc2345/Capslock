@@ -4,6 +4,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Keyboard</title>
+
+</head>
+<body>
+
+<div id="keyboard">
     <style type="text/css">
         h2 {
             font-size: 24px;
@@ -13,11 +18,11 @@
         }
 
         body {
-            /*background: #f5f6f7;*/
-            font-size: 12px;
+            background: #f5f6f7;
+            font-size: 10px;
         }
 
-        #jianpan {
+        #keyboard {
             width: 900px;
             height: 360px;
             border: 1px solid #999;
@@ -29,16 +34,18 @@
             position: relative;
         }
 
-        .anjian {
+        .key {
             width: 40px;
             height: 40px;
             border: none;
+            font-size: 10px;
+            font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
             box-shadow: rgba(0, 0, 0, 0.3) 0 1px 5px;
             position: absolute;
             border-radius: 4px;
         }
 
-        .lan_1 {
+        .row1 {
             top: 47px;
             height: 28px;
         }
@@ -123,7 +130,7 @@
             left: 844px;
         }
 
-        .lan_2 {
+        .row2 {
             top: 85px
         }
 
@@ -225,11 +232,11 @@
             left: 844px;
         }
 
-        .lan_3 {
+        .row3 {
             top: 130px;
         }
 
-        .tap {
+        .tab {
             background-color: rgba(190, 200, 222, 0.4);
             left: 20px;
             width: 70px;
@@ -316,7 +323,7 @@
             left: 844px;
         }
 
-        .lan_4 {
+        .row4 {
             top: 175px;
         }
 
@@ -387,7 +394,7 @@
             width: 96px;
         }
 
-        .lan_5 {
+        .row5 {
             top: 220px;
         }
 
@@ -453,7 +460,7 @@
             width: 117px;
         }
 
-        .lan_6 {
+        .row6 {
             top: 265px;
         }
 
@@ -578,130 +585,108 @@
             height: 85px;
         }
     </style>
-</head>
-<body>
-<div id="jianpan">
-    <div class="esc anjian lan_1"><span class="first">Caps Lock</span></div>
-    <div class="f1 anjian lan_1"><span class="first">Bright Down</span></div>
-    <div class="f2 anjian lan_1"><span class="first">Bright Up</span></div>
-    <div class="f3 anjian lan_1"><span class="first">Expose All</span></div>
-    <div class="f4 anjian lan_1"><span class="first">Launch Pad</span></div>
-    <div class="f5 anjian lan_1"><span class="first">KLight Down</span></div>
-    <div class="f6 anjian lan_1"><span class="first">KLight Up</span></div>
-    <div class="f7 anjian lan_1"><span class="first">Music Prev</span></div>
-    <div class="f8 anjian lan_1"><span class="first">Music Play</span></div>
-    <div class="f9 anjian lan_1"><span class="first">Music Next</span></div>
-    <div class="f10 anjian lan_1"><span class="first">Mute</span></div>
-    <div class="f11 anjian lan_1"><span class="first">Volume Down</span></div>
-    <div class="f12 anjian lan_1"><span class="first">Volume Up</span></div>
-    <div class="prt anjian lan_1"><span class="first">Music Prev</span></div>
-    <div class="scroll anjian lan_1"><span class="first">Music Next</span></div>
-    <div class="pause anjian lan_1"><span class="first">Mute</span></div>
+    <!-- row 1 EscF1F2Fn  -->
+    <div class="esc key row1"><span class="first">Caps Lock</span></div>
+    <div class="f1 key row1"><span class="first">Bright Down</span></div>
+    <div class="f2 key row1"><span class="first">Bright Up</span></div>
+    <div class="f3 key row1"><span class="first">Expose All</span></div>
+    <div class="f4 key row1"><span class="first">Launch Pad</span></div>
+    <div class="f5 key row1"><span class="first">KbdLt Down</span></div>
+    <div class="f6 key row1"><span class="first">KbdLt Up</span></div>
+    <div class="f7 key row1"><span class="first">Music Prev</span></div>
+    <div class="f8 key row1"><span class="first">Music Play</span></div>
+    <div class="f9 key row1"><span class="first">Music Next</span></div>
+    <div class="f10 key row1"><span class="first">Mute</span></div>
+    <div class="f11 key row1"><span class="first">Volume Down</span></div>
+    <div class="f12 key row1"><span class="first">Volume Up</span></div>
+    <div class="prt key row1"><span class="first">Music Prev</span></div>
+    <div class="scroll key row1"><span class="first">Music Next</span></div>
+    <div class="pause key row1"><span class="first">Mute</span></div>
 
-    <div class="a_1 anjian lan_2"><span class="first">Screen Shot</span></div>
-    <div class="a_2 anjian lan_2"><span class="first">!</span></div>
-    <div class="a_3 anjian lan_2"><span class="first">@</span></div>
-    <div class="a_4 anjian lan_2"><span class="first">#</span></div>
-    <div class="a_5 anjian lan_2"><span class="first">$</span></div>
-    <div class="a_6 anjian lan_2"><span class="first">%</span></div>
-    <div class="a_7 anjian lan_2"><span class="first">^</span></div>
-    <div class="a_8 anjian lan_2"><span class="first">& </span></div>
-    <div class="a_9 anjian lan_2"><span class="first">*</span></div>
-    <div class="a_10 anjian lan_2"><span class="first">(</span></div>
-    <div class="a_11 anjian lan_2"><span class="first">)</span></div>
-    <div class="a_12 anjian lan_2"><span class="first">-</span></div>
-    <div class="a_13 anjian lan_2"><span class="first">+</span></div>
-    <div class="a_14 anjian lan_2"><span class="first">←Backspace</span></div>
+    <!-- row 2 `123456  -->
+    <div class="a_1 key row2"><span class="first">Snap</span></div>
+    <div class="a_2 key row2"><span class="first">!</span></div>
+    <div class="a_3 key row2"><span class="first">@</span></div>
+    <div class="a_4 key row2"><span class="first">#</span></div>
+    <div class="a_5 key row2"><span class="first">$</span></div>
+    <div class="a_6 key row2"><span class="first">%</span></div>
+    <div class="a_7 key row2"><span class="first">^</span></div>
+    <div class="a_8 key row2"><span class="first">& </span></div>
+    <div class="a_9 key row2"><span class="first">*</span></div>
+    <div class="a_10 key row2"><span class="first">(</span></div>
+    <div class="a_11 key row2"><span class="first">)</span></div>
+    <div class="a_12 key row2"><span class="first">-</span></div>
+    <div class="a_13 key row2"><span class="first">+</span></div>
+    <div class="a_14 key row2"><span class="first">← Backspace</span></div>
 
-    <div class="insert anjian lan_2"><span class="first">Slow Bright Up</span></div>
-    <div class="home anjian lan_2"><span class="first">Slow KbdLt UP</span></div>
-    <div class="page_up anjian lan_2"><span class="first">Slow Volume Up</span></div>
+    <div class="insert key row2"><span class="first">Fine-G Bright Up</span></div>
+    <div class="home key row2"><span class="first">Fine-G KbdLt UP</span></div>
+    <div class="page_up key row2"><span class="first">Fine-G Volume Up</span></div>
+    
 
+    <!-- row 3 qwerty  -->
+    <div class="tab key row3"><span class="first">Windows 🔄</span></div>
+    <div class="q key row3"><span class="first">Win ❎</span></div>
+    <div class="w key row3"><span class="first">Tab ❎</span></div>
+    <div class="e key row3"><span class="first">Finder</span><span class="second">Safari</span></div>
+    <div class="r key row3"><span class="first">iTerm2</span><span class="second">Preview</span></div>
+    <div class="t key row3"><span class="first">Code</span><span class="second">Typora</span></div>
+    <div class="y key row3"><span class="first">Siri</span></div>
+    <div class="u key row3"><span class="first">PgUp</span></div>
+    <div class="i key row3"><span class="first">Home</span></div>
+    <div class="o key row3"><span class="first">End</span></div>
+    <div class="p key row3"><span class="first">PgDn</span></div>
+    <div class="p1 key row3"><span class="first">(</span></div>
+    <div class="p2 key row3"><span class="first">)</span></div>
+    <div class="p3 key row3"><span class="first">Comment</span><span class="fourth">\</span></div>
+    <div class="delete key row3"><span class="first">Fine-G Bright Down</span></div>
+    <div class="end key row3"><span class="first">Fine-G KbdLt Down</span></div>
+    <div class="page_down key row3"><span class="first">Fine-G Volume Down</span></div>
 
-    <div class="tap anjian lan_3"><span class="first">Switch Win</span></div>
-    <div class="q anjian lan_3"><span class="first">Close Win</span></div>
-    <div class="w anjian lan_3"><span class="first">Close Tab</span></div>
-    <div class="e anjian lan_3"><span class="first">Finder</span><span class="second">Safari</span></div>
-    <div class="r anjian lan_3"><span class="first">iTerm2</span><span class="second">Preview</span></div>
-    <div class="t anjian lan_3"><span class="first">Code</span><span class="second">Typora</span></div>
-    <div class="y anjian lan_3"><span class="first">Siri</span></div>
-    <div class="u anjian lan_3"><span class="first">PgUp</span></div>
-    <div class="i anjian lan_3"><span class="first">Home</span></div>
-    <div class="o anjian lan_3"><span class="first">End</span></div>
-    <div class="p anjian lan_3"><span class="first">PgDn</span></div>
+    <!-- row 4 Caps asdfgh  -->    
+    <div class="caps key row4"><span class="first">CapsLock ✱</span></div>
+    <div class="a key row4"><span class="first">Moom</span><span class="second">Expose</span></span></div>
+    <div class="s key row4"><span class="first">Tab 🔄</span></div>
+    <div class="d key row4"><span class="first">EOF</span><span class="second">Desktop</span></div>
+    <div class="f key row4"><span class="first"><span class="first">Dash</span><span class="second">Dict</span></span></div>
+    <div class="g key row4"><span class="first"><span class="first">IDEA</span><span class="second">Chrome</span></span></div>
+    <div class="h key row4"><span class="first">←</span></div>
+    <div class="j key row4"><span class="first">↓</span></div>
+    <div class="k key row4"><span class="first">↑</span></div>
+    <div class="l key row4"><span class="first">→</span></div>
+    <div class="b_1 key row4"><span class="first">!</span><span class="second">:</span></div>
+    <div class="b_2 key row4"><span class="first">=</span></div>
+    <div class="b_3 key row4"><span class="first">MouseButton</span></div>
 
-    <div class="p1 anjian lan_3"><span class="first">(</span></div>
-    <div class="p2 anjian lan_3"><span class="first">)</span></div>
-    <div class="p3 anjian lan_3"><span class="first">Comment</span><span class="fourth">\</span></div>
-    <div class="delete anjian lan_3"><span class="first">Slow Bright Down</span></div>
-    <div class="end anjian lan_3"><span class="first">Slow KbdLt Down</span></div>
-    <div class="page_down anjian lan_3"><span class="first">Slow Volume Down</span></div>
+    <!-- row 5 shiftzxcv  -->
+    <div class="shift key row5"><span class="first">Shift ⇧</span></div>
+    <div class="z key row5"><span class="first">Ctrl-Z</span></div>
+    <div class="x key row5"><span class="first">RUN</span></div>
+    <div class="c key row5"><span class="first">SIGINT</span></div>
+    <div class="v key row5"><span class="first">Vim Prefix</span></div>
+    <div class="b key row5"><span class="first">Tmux Prefix</span></div>
+    <div class="n key row5"><span class="first">Delete Word Ahead</span></div>
+    <div class="m key row5"><span class="first">Delete Char Ahead</span></div>
+    <div class="m_1 key row5"><span class="first">Delete Char After</span></div>
+    <div class="m_2 key row5"><span class="first">Delete Word After</span></div>
+    <div class="m_3 key row5"><span class="first">Cmt</span></div>
+    <div class="m_4 key row5"><span class="first">Shift ⇧</span></div>
+    <div class="l_up key row5"><span class="second">↑</span></div>
 
-
-    <div class="caps anjian lan_4"><span class="first">Caps Lock</span></div>
-    <div class="a anjian lan_4"><span class="first">Moom</span><span class="second">Expose</span></span></div>
-    <div class="s anjian lan_4"><span class="first">Switch Tab</span></div>
-    <div class="d anjian lan_4"><span class="first">EOF</span><span class="second">Desktop</span></div>
-    <div class="f anjian lan_4"><span class="first"><span class="first">Dash</span><span
-            class="second">Dict</span></span></div>
-    <div class="g anjian lan_4"><span class="first"><span class="first">IDEA</span><span
-            class="second">Chrome</span></span></div>
-    <div class="h anjian lan_4"><span class="first">←</span></div>
-    <div class="j anjian lan_4"><span class="first">↓</span></div>
-    <div class="k anjian lan_4"><span class="first">↑</span></div>
-    <div class="l anjian lan_4"><span class="first">→</span></div>
-    <div class="b_1 anjian lan_4"><span class="first">!</span><span class="second">:</span></div>
-    <div class="b_2 anjian lan_4"><span class="first">=</span></div>
-    <div class="b_3 anjian lan_4"><span class="first">MouseButton</span></div>
-
-
-    <div class="shift anjian lan_5"><span class="first">Shift</span></div>
-    <div class="z anjian lan_5"><span class="first">SIG
-        TSTP</span></div>
-    <div class="x anjian lan_5"><span class="first">RUN</span></div>
-    <div class="c anjian lan_5"><span class="first">SIGINT</span></div>
-    <div class="v anjian lan_5"><span class="first">Vim Prefix</span></div>
-    <div class="b anjian lan_5"><span class="first">Tmux Prefix</span></div>
-    <div class="n anjian lan_5"><span class="first">Delete Word Ahead</span></div>
-    <div class="m anjian lan_5"><span class="first">Delete Char Ahead</span></div>
-    <div class="m_1 anjian lan_5"><span class="first">Delete Char After</span></div>
-    <div class="m_2 anjian lan_5"><span class="first">Delete Word After</span></div>
-    <div class="m_3 anjian lan_5"><span class="first">Cmt</span></div>
-    <div class="m_4 anjian lan_5"><span class="first">Shift</span></div>
-    <div class="l_up anjian lan_5"><span class="second">↑</span></div>
-
-    <!--<div class="one anjian lan_5"><span class="third">1</span><span class="fourth">End</span></div>-->
-    <!--<div class="two anjian lan_5"><span class="third">2</span><span class="fourth">↓</span></div>-->
-    <!--<div class="three anjian lan_5"><span class="third">3</span><span class="fourth">PgDn</span></div>-->
-    <!--<div class="four anjian lan_4"><span class="third">4</span><span class="fourth">←</span></div>-->
-    <!--<div class="five anjian lan_4"><span class="third">5</span></div>-->
-    <!--<div class="six anjian lan_4"><span class="third">6</span><span class="fourth">→</span></div>-->
-    <!--<div class="seven anjian lan_3"><span class="third">7</span><span class="fourth">Home</span></div>-->
-    <!--<div class="eight anjian lan_3"><span class="third">8</span><span class="fourth">↑</span></div>-->
-    <!--<div class="nine anjian lan_3"><span class="third">9</span><span class="fourth">PgUp</span></div>-->
-    <!--<div class="add anjian lan_3"><span class="fifth">+</span></div>-->
-    <!--<div class="s_enter anjian lan_5"><span class="fifth">Enter</span></div>-->
-    <!--<div class="zone anjian lan_6"><span class="third">0</span><span class="fourth">Ins</span></div>-->
-    <!--<div class="del anjian lan_6"><span class="third">.</span><span class="fourth">Del</span></div>-->
-    <!--<div class="num_lock anjian lan_2"><span class="third">Num Lock</span></div>-->
-    <!--<div class="a_15 anjian lan_2"><span class="third">/</span></div>-->
-    <!--<div class="a_16 anjian lan_2"><span class="third">*</span></div>-->
-    <!--<div class="a_17 anjian lan_2"><span class="third">-</span></div>-->
-
-
-    <div class="ctrl anjian lan_6"><span class="first">Ctrl</span></div>
-    <div class="windows anjian lan_6"><span class="first">Opt</span></div>
-    <div class="alt anjian lan_6"><span class="first">Cmd</span></div>
-    <div class="space anjian lan_6"><span class="first">Language Switcher</span></div>
-    <div class="alt_1 anjian lan_6"><span class="first">Cmd</span></div>
-    <div class="windows_1 anjian lan_6"><span class="first">Opt</span></div>
-    <div class="right_on anjian lan_6"><span class="first">Fn</span></div>
-    <div class="ctrl_1 anjian lan_6"><span class="first">Ctrl</span></div>
-    <div class="l_left anjian lan_6"><span class="second">←</span></div>
-    <div class="l_down anjian lan_6"><span class="second">↓</span></div>
-    <div class="l_right anjian lan_6"><span class="second">→</span></div>
-
-
+    <!-- row 6 CtlrAlterOpts  -->
+    <div class="ctrl key row6"><span class="first">Ctl ⌃</span></div>
+    <div class="windows key row6"><span class="first">Opt ⌥</span></div>
+    <div class="alt key row6"><span class="first">Cmd ⌘</span></div>
+    <div class="space key row6"><span class="first">Language Switcher</span></div>
+    <div class="alt_1 key row6"><span class="first">Cmd ⌘</span></div>
+    <div class="windows_1 key row6"><span class="first">Opt ⌥</span></div>
+    <div class="right_on key row6"><span class="first">Fn</span></div>
+    <div class="ctrl_1 key row6"><span class="first">Ctrl ⌃</span></div>
+    <div class="l_left key row6"><span class="second">←</span></div>
+    <div class="l_down key row6"><span class="second">↓</span></div>
+    <div class="l_right key row6"><span class="second">→</span></div>
 </div>
+
+
 </body>
 </html>
